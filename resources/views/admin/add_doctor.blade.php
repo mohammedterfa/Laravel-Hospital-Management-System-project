@@ -30,7 +30,14 @@
       <!-- partial -->
       @include('admin.navbar')
         <!-- partial -->
-      @include('admin.body')
+
+    <div class="container-fluid page-body-wrapper">
+
+        <div class="container">
+
+        </div>
+
+    </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
       @include('admin.script')
