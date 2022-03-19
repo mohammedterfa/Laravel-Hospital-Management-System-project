@@ -2,6 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style type="text/css">
+        label{
+            display: inline-block;
+            width: 200px;
+        }
+    </style>
+
     <!-- Required meta tags -->
     @include('admin.css')
   </head>
@@ -33,8 +40,48 @@
 
     <div class="container-fluid page-body-wrapper">
 
-        <div class="container">
+        <div class="container" align="center" style="padding-top:100px;">
+            <form action="">
+                <div style="padding:15px;">
+                    <label for="">Doctor Name</label>
+                    <input type="text" name="name" style="color:black;" placeholder="Write the name">
+                </div>
 
+                <div style="padding:15px;">
+                    <label for="">Phone</label>
+                    <input type="number" name="number" style="color:black;" placeholder="Write the number">
+                </div>
+
+                <div style="padding:15px;">
+                    <label for="">Speciality</label>
+                    <select name="speciality" style="color:black; width:200px;">
+
+                        <option>--Select--</option>
+                        <option value="skin">skin</option>
+                        <option value="heart">heart</option>
+                        <option value="eye">eye</option>
+                        <option value="dentile">dentile</option>
+
+                    </select>
+                </div>
+
+                <div style="padding:15px;">
+                    <label for="">Room No</label>
+                    <input type="text" name="room" style="color:black;" placeholder="Write the room number">
+                </div>
+
+                <div style="padding:15px;">
+                    <label for="">Doctor Image</label>
+                    <input type="file" name="file">
+                </div>
+
+                <div style="padding:15px;">
+
+                    <input type="submit" class="btn btn-success">
+                </div>
+
+
+            </form>
         </div>
 
     </div>
