@@ -32,4 +32,9 @@ class AdminController extends Controller
         return redirect()->back()->with('message', 'Doctor Added Successfully');
 
     }
+
+
+    public function showappointment(){
+        return view('admin.showappointment');
+    }
 }
