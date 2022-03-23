@@ -54,7 +54,7 @@
                         <td>{{ $doctor->room }}</td>
                         <td><img height="100" width="100" src="doctorimage/{{ $doctor->image }}" alt=""></td>
                         <td><a  class="btn btn-primary" href="">Update</a></td>
-                        <td><a class="btn btn-danger" href="{{ url('deletedoctor', $doctor->id) }}">Delete</a></td>
+                        <td><a class="btn btn-danger" onclick="return confirm('are you sure to delete this doctor ?')" href="{{ url('deletedoctor', $doctor->id) }}">Delete</a></td>
                     </tr>
 
                     @endforeach
