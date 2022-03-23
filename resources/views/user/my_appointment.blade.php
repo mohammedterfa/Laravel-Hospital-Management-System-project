@@ -115,7 +115,7 @@
 
 <div align="center" style="padding:70px;">
     <table>
-        <tr style="background-color:black;">
+        <tr style="background-color:rgb(2, 90, 83);">
             <th style="padding:10px;font-size:20px;color:white;">Doctor Name</th>
             <th style="padding:10px;font-size:20px;color:white;">Date</th>
             <th style="padding:10px;font-size:20px;color:white;">Message</th>
@@ -126,7 +126,7 @@
         @foreach ($appoint as $appoints )
 
 
-        <tr style="background-color:black;" align="center">
+        <tr style="background-color:rgb(6, 139, 106);" align="center">
             <td style="padding:10px;color:white;">{{ $appoints->doctor }}</td>
             <td style="padding:10px;color:white;">{{ $appoints->date }}</td>
             <td style="padding:10px;color:white;">{{ $appoints->message }}</td>

@@ -40,3 +40,5 @@ Route::get('/approved/{id}',[AdminController::class, 'approved']);
 
 Route::get('/canceled/{id}',[AdminController::class, 'canceled']);
 
+Route::get('/showdoctor',[AdminController::class, 'showdoctor']);
+
