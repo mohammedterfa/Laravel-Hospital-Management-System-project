@@ -70,10 +70,15 @@
                     <select name="speciality" style="color:black; width:200px;" required>
 
                         <option>--Select--</option>
-                        <option value="skin">skin</option>
-                        <option value="heart">heart</option>
-                        <option value="eye">eye</option>
-                        <option value="dentile">dentile</option>
+                        <option value="Allergy and immunology">Allergy and immunology</option>
+                        <option value="Anesthesiology">Anesthesiology</option>
+                        <option value="Dermatology">Dermatology</option>
+                        <option value="Diagnostic radiology">Diagnostic radiology</option>
+                        <option value="Family medicine">Family medicine</option>
+                        <option value="Neurology">Neurology</option>
+                        <option value="Pathology">Pathology</option>
+                        <option value="Preventive medicine">Preventive medicine</option>
+                        <option value="Surgery">Surgery</option>
 
                     </select>
                 </div>

@@ -18,6 +18,9 @@ use App\Http\Controllers\AdminController;
 
 Route::get('/',[HomeController::class, 'index']);
 
+Route::get('/about',[HomeController::class, 'about']);
+
+
 Route::get('/home',[HomeController::class, 'redirect'])->middleware('auth', 'verified');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
